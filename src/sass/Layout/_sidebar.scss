@@ -1,0 +1,113 @@
+@use '../base/mixins' as m;
+
+.contenedor-icon {
+    padding-top: 6rem;
+
+}
+
+.sidebar {
+    padding: 1rem;
+    background-color: var(--azul);
+    height: 100vh;
+    width: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width .4s ease-in;
+    border-top-right-radius: .8rem;
+    border-bottom-right-radius: .8rem;
+
+    //repnsive sidebar phone
+
+    @include m.telefono {
+        height: 5rem;
+        overflow: hidden;
+        background-color: transparent;
+
+        a {
+            display: hidden;
+        }
+
+    }
+
+
+    &-icon {
+        display: flex;
+        margin-bottom: 3rem;
+
+        &:hover {
+            .icon-name {
+                visibility: visible;
+                color: var(--naranja);
+
+            }
+        }
+
+    }
+
+    .icon {
+        display: block;
+    }
+
+    img {
+        width: 3rem;
+        color: red;
+    }
+
+}
+
+
+.icon {
+
+    &-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 2rem auto;
+
+        @include m.telefono{
+           
+         }
+
+
+
+    }
+
+    &-name {
+        left: 6rem;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 2.5rem;
+        color: white;
+        text-transform: uppercase;
+        visibility: hidden;
+        transition: visibility .1s ease-in;
+    }
+
+}
+
+.extend {
+
+    .icon-name {
+        visibility: visible;
+    }
+
+    @include m.telefono {
+
+        width: 100%;
+        height: 100%;
+        background-color: var(--azul);
+        a{
+            visibility: visible;
+        }
+
+    }
+
+    @include m.desktop {
+        width: 17rem;
+    }
+
+  
+}

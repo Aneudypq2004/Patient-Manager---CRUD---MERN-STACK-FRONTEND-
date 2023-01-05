@@ -1,0 +1,63 @@
+@use './mixins' as m;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+
+:root {
+    --naranja: #ee6c4d;
+    --azul: #007FFF;
+    --azulOscuro: #317AC7;
+    --negro: #111111;
+    --gris: #9CA3AF;
+    --background: #05010a;
+    --text-primary: #f2f2f2;
+    --text-secondary: #a7a4a4;
+    --accent: #6a5acd;
+    --accent-hover: #5b4cbe; 
+    --border: #696969;
+    --shadow: 7px 15px 13px -4px #ffffff1b;
+
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--negro);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor {
+    display: flex;
+    margin: 0rem 5rem;
+    justify-content: center;
+
+    @include m.telefono{
+        margin: 0;
+    }
+
+}
+
+.dark {
+    background-color: var(--negro);
+}
+
+

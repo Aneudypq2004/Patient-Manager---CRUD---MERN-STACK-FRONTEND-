@@ -1,0 +1,53 @@
+@use '../base/mixins' as m;
+
+.chart {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 95%;
+
+    @include m.desktop {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    gap: 4rem;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 4rem;
+
+    @include m.telefono {
+        margin: 0;
+        margin-top: 4rem;
+        padding: 2rem;
+    
+
+    }
+}
+
+
+.line,
+.bar,
+.pie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: .8rem;
+    box-shadow: var(--shadow);
+    max-height: 40rem;
+    padding: 1rem;
+
+    
+    @include m.telefono {
+        width: 95% ;
+    }
+}
+
+.line {}
+
+.pie {}
+
+.bar {
+    @include m.desktop {
+        grid-column: -3 / -1;
+    }
+}
