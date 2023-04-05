@@ -1,22 +1,26 @@
-Used technology :
+# Used technology :
 
 ===FRONTEND===
 
-REACT WITH VITE
+* REACT WITH VITE
 
-SASS
+* SASS
 
-ChartJs and React-chartjs-2
+* ChartJs and React-chartjs-2
 
 ![image](https://user-images.githubusercontent.com/114118969/210853020-9ca3fe54-6f25-43b9-a3fb-eddfce077216.png)
 
 ![image](https://user-images.githubusercontent.com/114118969/210853116-58c31d98-1420-4bf7-b10d-2056af07cbd3.png)
 
-//BACKEND
+## BACKEND
 
-Mongo DB
-Express
-NodeJs
+* Mongo DB
 
-A FullStack Project to improve my skills
+* Express
+
+* NodeJs
+
+---
+
+<Center> A FullStack Project to improve my skills mad </Center>
 
