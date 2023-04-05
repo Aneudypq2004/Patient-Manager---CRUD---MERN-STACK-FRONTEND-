@@ -1,6 +1,6 @@
 # Used technology :
 
-===FRONTEND===
+## FRONTEND
 
 * REACT WITH VITE
 
@@ -22,5 +22,5 @@
 
 ---
 
-<Center> A FullStack Project to improve my skills mad </Center>
+ A FullStack Project to improve my skills mad
 
