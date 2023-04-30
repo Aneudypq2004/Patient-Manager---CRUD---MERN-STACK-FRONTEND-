@@ -1,3 +1,15 @@
+
+---
+### To use and practice with the project follow these steps
+
+1. Download the zip
+2. Open the folder in  with Visual Studio Code or your favorite editor
+3. Run in the terminal ``` npm install ``` to install the  dependencies
+4. Run ``` npm run dev ``` to start the project in the backend
+
+---
+
+
 # Used technology :
 
 ## FRONTEND
@@ -10,7 +22,6 @@
 
 ![image](https://user-images.githubusercontent.com/114118969/210853020-9ca3fe54-6f25-43b9-a3fb-eddfce077216.png)
 
-![image](https://user-images.githubusercontent.com/114118969/210853116-58c31d98-1420-4bf7-b10d-2056af07cbd3.png)
 
 ## BACKEND
 
@@ -23,4 +34,7 @@
 ---
 
  A FullStack Project to improve my skills mad
+
+ Made with :heart: by [Aneudypq](https://t.me/Aneudypq2004)
+
 
