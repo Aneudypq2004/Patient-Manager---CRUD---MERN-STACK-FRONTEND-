@@ -1,5 +1,4 @@
 # Patient Manager CRUD
----
 ### To use and practice with the project follow these steps
 
 1. Download the zip
